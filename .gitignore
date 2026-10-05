@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.venv/
+venv/
+# MAC-cache scratch (write() uses mkstemp next to the target)
+.gvsim_cache/
+*.mac.*.tmp
+
+# Real secrets — never commit these patterns
+.env
+govee-hygrometer.env
+/etc/govee-hygrometer.env
+.env.local
+*.env.local
+# session transcripts / chat logs if you keep them in the tree
+*.jsonl
